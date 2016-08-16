@@ -55,8 +55,8 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
     func blankLinesLeftBehind(_ nsarray: NSArray) -> Set<Int> {
         return Set(allBlankLines(convert(nsarray))).symmetricDifference(linesToRemove(nsarray))
     }
-
-    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: (Error?) -> Void ) -> Void {
+    
+    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) -> Void {
     
         let lines = invocation.buffer.lines
         

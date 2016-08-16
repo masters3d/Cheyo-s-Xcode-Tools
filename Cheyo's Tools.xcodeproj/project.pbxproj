@@ -364,6 +364,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 98V23JL673;
 				INFOPLIST_FILE = "Cheyo's Tools/Info.plist";
@@ -379,6 +380,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 98V23JL673;
 				INFOPLIST_FILE = "Cheyo's Tools/Info.plist";
@@ -393,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Masters3d's Remove Extra Blank Lines/Masters3d_s_Remove_Extra_Blank_Lines.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 98V23JL673;
 				INFOPLIST_FILE = "Masters3d's Remove Extra Blank Lines/Info.plist";
@@ -409,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Masters3d's Remove Extra Blank Lines/Masters3d_s_Remove_Extra_Blank_Lines.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 98V23JL673;
 				INFOPLIST_FILE = "Masters3d's Remove Extra Blank Lines/Info.plist";
@@ -440,6 +444,7 @@
 				1EA475BC1D5E8A3900919515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EA475E51D5E8C6A00919515 /* Build configuration list for PBXNativeTarget "Masters3d's Remove Extra Blank Lines" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +453,7 @@
 				1EA475E71D5E8C6A00919515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
